@@ -1,0 +1,200 @@
+
+.headbox{
+    font-size: 0.6rem;
+    color: #ffffff;
+}
+.indexheadbox{
+    display: flex;
+    justify-content:space-between;
+}
+.indexheadbox li{
+    color: rgba(150, 163, 228, 0.651);
+    font-size: 0.5rem;
+}
+.indexheadbox li img{
+    width: 2.3rem;
+    height: 0.5rem;
+}
+.learninghead li{
+    font-size: 0.5rem;
+    margin: 0 0.3rem;
+    padding: 0.3rem 0rem;
+    color:  rgba(160, 16, 16, 0.712)
+}
+.learningheadconten{
+    font-size: 0.5rem;
+    margin: 0.3rem 0.3rem;
+    color: red;
+}
+.learningtwo{
+    display: flex;
+    justify-content: space-around;
+}
+.learningtwo li{
+    width: 2rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size:0.4rem; 
+    border-left:1px solid gray;
+    border-bottom: 1px solid gray;
+    border-right: 1px solid gray;
+} 
+.learningtwocontent{
+    display: flex;
+    justify-content: space-around;
+}
+.learningtwocontent li{
+    width: 2rem;
+    height: 0.8rem;
+    text-align: center;
+    line-height: 0.8rem;
+    font-size:0.4rem; 
+    border-bottom: 1px solid gray;
+    border-left:1px solid gray;
+}
+.learningtwo1{
+    width: 100%;
+    height: 2.4rem;
+    position: fixed;
+    bottom:0;
+}
+.insertion{
+    padding-bottom: 2rem;
+}
+.learningthree ul li {
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    line-height: 3rem;
+    font-size: 1rem;
+    margin: 0.5rem 2.5rem;
+    background-color:  rgb(192, 188, 199);
+}
+.previousone{
+    float: right;
+    margin: 0.3rem 0rem;
+}
+.previoustwo{
+    font-size: 0.4rem;
+}
+.scholasti:after{
+    content: " ";
+    clear: both;
+    display: block;
+    visibility: hidden;
+    height: 0;
+}
+.scholasti{
+    padding-bottom: 3rem;
+}
+.scholasti li{
+    height: 2rem;
+    width: 4rem;
+    float: left;
+    overflow:hidden;
+    border-radius: 0.5rem;
+    margin: 0.5rem 0.5rem;
+
+    background-color: rgb(213, 210, 218);
+}
+.scholasti li div img{
+    width: 2rem;
+    height: 2rem;
+}
+.scholasti li div{
+    float: left;
+}
+.scholasti li p {
+    /* font-size: 0.5rem; */
+    color: #ffffff;
+    /* margin: 0.2rem 2.6rem; */
+}
+.scholastichead{
+    float: right;
+    margin: -0.7rem 0.3rem;
+}
+.boxone{
+    border-top: 1px dashed rgb(213, 210, 218);
+    border-bottom:1px dashed rgb(213, 210, 218);
+    height: 6rem;
+    width:100%;
+    margin: 2rem 0rem;
+}
+
+
+.boxone li{
+    font-size: 0.37rem;
+    margin: 0.3rem 0rem;
+}
+.three{
+    float: right;
+}
+
+.hasFixed{
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1000;/* 视情况而定，需不需要 */
+}
+.justice{
+    width: 100%;
+    color: #ffffff;
+    height: 1.8rem;
+    text-align: center;
+    background-color:  rgb(255, 187, 0);
+}
+.patriarchhead{
+    width: 100%;
+    height: 8rem;
+    border-radius:5px;
+    box-shadow: 5px 10px 5px #888888;
+}
+.patriarchbox{
+    width: 1.5rem;
+    height: 1rem;
+    font-size: 0.5rem;
+    margin: 0 auto;
+}
+.patriarchhead ul li{
+    margin: 0.5rem 0rem;
+    font-size: 0.5rem; 
+}
+.patriarchboxhead{
+    border-bottom:1px solid gray; 
+    margin: 0rem 1rem;
+    font-size: 0.5rem; 
+}
+.patriarchtwo{
+    display: flex;
+    justify-content:space-between;
+}
+.patriarchtwo li{
+    width: 1.7rem;
+    text-align: center;
+    height: 1rem;
+    font-size: 0.4rem;
+    line-height: 1rem;
+    
+}
+.patriarchtwo{
+    overflow:hidden;
+    border-bottom: 1px solid gray;
+}
+.Mars{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+.Classtodownload{
+    display: block;
+    width: 4rem;
+    height: 1rem;
+    margin: 1rem 0rem;
+    color: #ffffff;
+    line-height: 1rem;
+    border-radius:5px;
+    background-color: #1989fa;
+    text-align: center;
+}
